@@ -40,8 +40,8 @@ sandbox.env = {
   tostring = tostring,  -- Mike Pall says it is unsafe; why? See http://lua-users.org/lists/lua-l/2011-02/msg01595.html
   type = type,
   xpcall = xpcall,
-  socket = socket,
-  redis = redis,
+  socket = require("socket"),
+  redis = require("redis"),
 
   --
   -- 6.2 Coroutine Manipulation
