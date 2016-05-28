@@ -72,6 +72,7 @@ install_deps () {
         libre2 \
         libicu52 \
         liblua5.2-0 \
+        lua-socket \
         zlib1g
 }
 
